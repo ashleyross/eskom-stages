@@ -3,6 +3,9 @@ This small webapp exposes the current Eskom load shedding stage data in several 
 
 It is written in C# and targets .NET Framework 4.5.1, although it will probably work just fine on lower versions too. It uses the Razor view engine with MVC 5 and Newtonsoft's Json.NET.
 
+### Compiling and Running
+As this project was created in Visual Studio 2013, the simplest would be to use that to build it. If you don't have Visual Studio, you can get [Visual Studio Community 2013](https://www.visualstudio.com/en-us/products/visual-studio-community-vs) for free. Alternatively, you can try [MonoDevelop](http://www.monodevelop.com/), which is cross-platform.
+
 ### Usage
 Once the webapp is up and running, you can access the various output types the correct way, by varying the Accept header when requesting `/`, or the lazy way, by URL.
 
