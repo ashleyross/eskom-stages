@@ -11,10 +11,7 @@ namespace EskomStages.Web.Controllers
     {
         public string ViewName { get; set; }
 
-        public HtmlResult(string viewName)
-            : this(viewName, null)
-        {
-        }
+        public HtmlResult(string viewName) : this(viewName, null) { }
 
         public HtmlResult(string viewName, object data)
         {

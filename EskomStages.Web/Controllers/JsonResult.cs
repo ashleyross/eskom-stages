@@ -10,10 +10,7 @@ namespace EskomStages.Web.Controllers
 {
     public class JsonResult : CustomResult
     {
-        public JsonResult(object data)
-            : this(data, MIME_JSON)
-        {
-        }
+        public JsonResult(object data) : this(data, MIME_JSON) { }
 
         public JsonResult(object data, string contentType)
         {

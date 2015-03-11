@@ -14,6 +14,7 @@ Once the webapp is up and running, you can access the various output types the c
   - **XML** - `Accept: text/xml` or `Accept: application/xml` or by URL `/xml`
   - **Text** - `Accept: text/plain` or by URL `/text`
 
+You can see all this in action at http://load.27.am/
 
 ### Notes
 The data returned by this app is cached for 2 minutes if the call to the Eskom endpoint was successful. If unsuccessful, the data is cached for 5 seconds to avoid hammering the Eskom endpoint.

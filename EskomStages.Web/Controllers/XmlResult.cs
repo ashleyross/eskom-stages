@@ -11,10 +11,7 @@ namespace EskomStages.Web.Controllers
 {
     public class XmlResult : CustomResult
     {
-        public XmlResult(object data)
-            : this(data, MIME_XML)
-        {
-        }
+        public XmlResult(object data) : this(data, MIME_XML) { }
 
         public XmlResult(object data, string contentType)
         {
